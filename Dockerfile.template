@@ -1,0 +1,10 @@
+
+FROM resin/%%RESIN_MACHINE_NAME%%-python
+ENV INITSYSTEM on
+COPY ./requirements.txt /requirements.txt
+WORKDIR /
+ENV READTHEDOCS True
+RUN pip install -r ./requirements.txt
+COPY ./main.py
+CMD ["python", "main.py"]
+
