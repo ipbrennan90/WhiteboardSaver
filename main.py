@@ -7,7 +7,12 @@ logging.debug("test")
 led = LED(17)
 
 def main():
-    led.off()
+    while true:
+        led.on()
+        logging.debug("on")
+        time.sleep(1)
+        led.off()
+        logging.debug("off")
     
 
 main()
