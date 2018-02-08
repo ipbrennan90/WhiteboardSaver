@@ -10,7 +10,7 @@ def main():
     led.off()
     time.sleep(10)
     led.on()
-    time.sleep(10)
+    time.sleep(1)
     
 
 main()
