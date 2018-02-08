@@ -10,7 +10,7 @@ def main():
     while True:
         led.on()
         logging.debug("on")
-        time.sleep(1)
+        time.sleep(10)
         led.off()
         logging.debug("off")
     
