@@ -11,7 +11,10 @@ def main():
     time.sleep(6)
     logging.debug("turning led on")
     led.on()
-    return
+    time.sleep(6)
+    led.off()
+    loggin.debug("turning led off")
+    
 
 main()
     
