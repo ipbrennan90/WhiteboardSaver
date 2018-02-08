@@ -2,6 +2,8 @@ certifi==2018.1.18
 chardet==3.0.4
 click==6.7
 Flask==0.12.2
+RPi.GPIO==0.6.3
+pigpio==1.38
 gpiozero==1.4.0
 idna==2.6
 itsdangerous==0.24
