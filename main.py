@@ -28,6 +28,7 @@ def main():
     logging.debug("start")
     led.off()
     time.sleep(10)
+    message()
     led.on()
     logging.debug("on")
     time.sleep(10)
