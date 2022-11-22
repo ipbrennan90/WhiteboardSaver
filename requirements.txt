@@ -13,5 +13,5 @@ requests==2.18.4
 urllib3==1.22
 Werkzeug==0.14.1
 picamera==1.13
-Pillow==4.3.0
+Pillow==9.3.0
 twilio
